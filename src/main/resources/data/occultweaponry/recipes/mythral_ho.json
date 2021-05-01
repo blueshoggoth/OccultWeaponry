@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "oo",
+        " /",
+        " /"
+    ],
+    "key": {
+        "o": {
+            "item": "occultweaponry:mythral_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "occultweaponry:mythral_hoe",
+        "count": 1
+    }
+}

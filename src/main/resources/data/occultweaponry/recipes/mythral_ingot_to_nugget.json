@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "o"
+    ],
+    "key": {
+        "o": {
+            "item": "occultweaponry:mythral_ingot"
+        }
+    },
+    "result": {
+        "item": "occultweaponry:mythral_nugget",
+        "count": 9
+    }
+}
