@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:onyx",
+              "name": "occultweaponry:onyx",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
