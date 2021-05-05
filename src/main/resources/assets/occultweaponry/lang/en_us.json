@@ -7,5 +7,8 @@
 	"item.occultweaponry.mythral_shovel":"Mythral Shovel",
 	"item.occultweaponry.mythral_sword":"Mythral Sword",
 	"block.occultweaponry.mythral_ore":"Mythral Ore",
-	"block.occultweaponry.mythral_block":"Mythral Block"
+	"block.occultweaponry.mythral_block":"Mythral Block", 
+	"item.occultweaponry.onyx": "Onyx", 
+	"block.occultweaponry.onyx_ore":"Onyx Ore",
+	"block.occultweaponry.onyx_block":"Onyx Block"
 }

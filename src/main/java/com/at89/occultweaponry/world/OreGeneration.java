@@ -18,6 +18,7 @@ public class OreGeneration {
 	public static void generateOres(final BiomeLoadingEvent event) {
 		if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))
 				&& event.getCategory().equals(Biome.Category.EXTREME_HILLS)) {
+			//Mythral Ore Generation
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
 					BlockInit.MYTHRAL_ORE.get().defaultBlockState(), 8, 24, 46, 18);
 		}

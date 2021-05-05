@@ -26,8 +26,6 @@ public class ItemInit {
     //Mythral nugget
     public static final RegistryObject<Item> MYTHRAL_NUGGET = ITEMS.register("mythral_nugget", 
     		()-> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
-    //tools
-    
     //tools stanno a riga 603 della classe Items
     public static final RegistryObject<Item> MYTHRAL_AXE = ITEMS.register("mythral_axe", 
     		() -> new AxeItem(ItemTier.DIAMOND, 5.0F, -3.0F, 
@@ -44,7 +42,10 @@ public class ItemInit {
     public static final RegistryObject<Item> MYTHRAL_SWORD = ITEMS.register("mythral_sword", 
     		() -> new SwordItem(ItemTier.DIAMOND, 3, -2.4F, 
     				(new Item.Properties()).tab(ItemGroup.TAB_MISC)));
-    
+    //Onyx
+    public static final RegistryObject<Item> ONYX = ITEMS.register("onyx", 
+    		()-> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+        
     //Block items
     //Mythral Ore
     public static final RegistryObject<BlockItem> MYTHRAL_ORE = ITEMS.register("mythral_ore",
@@ -52,6 +53,12 @@ public class ItemInit {
     //Mythral Block
     public static final RegistryObject<BlockItem> MYTHRAL_BLOCK = ITEMS.register("mythral_block",
             () -> new BlockItem(BlockInit.MYTHRAL_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_MISC)));
-
-
+    //Onyx
+    public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore",
+            () -> new BlockItem(BlockInit.ONYX_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    //Mythral Block
+    public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block",
+            () -> new BlockItem(BlockInit.ONYX_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    
+    
 }

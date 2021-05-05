@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "occultweaponry:onyx"
+        }
+    },
+    "result": {
+        "item": "occultweaponry:onyx_block",
+        "count": 1
+    }
+}
