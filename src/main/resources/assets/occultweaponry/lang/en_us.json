@@ -1,6 +1,5 @@
 {
 	"item.occultweaponry.mythral_ingot":"Mythral Ingot",
-	"item.occultweaponry.onyx":"Onyx",
 	"item.occultweaponry.mythral_nugget":"Mythral Nugget",
 	"item.occultweaponry.mythral_axe":"Mythral Axe",
 	"item.occultweaponry.mythral_hoe":"Mythral Hoe",
@@ -8,7 +7,15 @@
 	"item.occultweaponry.mythral_shovel":"Mythral Shovel",
 	"item.occultweaponry.mythral_sword":"Mythral Sword",
 	"block.occultweaponry.mythral_ore":"Mythral Ore",
+	"block.occultweaponry.mythral_block":"Mythral Block", 
+	"item.occultweaponry.mythral_helmet":"Mythral Helmet", 
+	"item.occultweaponry.mythral_chestplate":"Mythral Chestplate", 
+	"item.occultweaponry.mythral_leggings":"Mythral Leggings", 
+	"item.occultweaponry.mythral_boots":"Mythral Boots", 
+	
+	"item.occultweaponry.onyx": "Onyx", 
 	"block.occultweaponry.onyx_ore":"Onyx Ore",
-	"block.occultweaponry.mythral_block":"Mythral Block",
-	"block.occultweaponry.onyx_block":"Onyx Block"
+	"block.occultweaponry.onyx_block":"Onyx Block", 
+	
+	"itemGroup.occultweaponry_tab":"Occult Weaponry"
 }

@@ -37,3 +37,6 @@ public class OccultWeaponry
     	
     }
 }
+
+// Used for loading the mod
+// Used for controlling all aspects of the mod

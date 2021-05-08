@@ -24,7 +24,7 @@ public class OreGeneration {
 					BlockInit.MYTHRAL_ORE.get().defaultBlockState(), 8, 24, 46, 18);
 		}
 		
-		//Onyx genration
+		//Onyx generation
 		if(event.getCategory().equals(Biome.Category.NETHER)){
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
 					BlockInit.ONYX_ORE.get().defaultBlockState(), 12, 8, 124, 18);
