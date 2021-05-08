@@ -1,6 +1,7 @@
 package com.at89.occultweaponry.core.init;
 
 import com.at89.occultweaponry.OccultWeaponry;
+import com.at89.occultweaponry.common.block.OccultOreBlock;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -38,9 +39,10 @@ public class BlockInit {
 	
 	//Onyx Ore
 	public static final RegistryObject<Block> ONYX_ORE = BLOCKS.register("onyx_ore", 
-			()-> new OreBlock(AbstractBlock.Properties.of(Material.STONE, MaterialColor.NETHER)
+			()-> new OccultOreBlock(AbstractBlock.Properties.of(Material.STONE, MaterialColor.NETHER)
 					.requiresCorrectToolForDrops()
-					.strength(3.0F, 3.0F)
+					.strength(8F, 30F)
+					.harvestLevel(2)
 					.sound(SoundType.NETHER_ORE)));
 	//Onyx Block
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", 
