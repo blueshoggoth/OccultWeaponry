@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "o o",
+        "o o"
+    ],
+    "key": {
+        "o": {
+            "item": "occultweaponry:mythral_ingot"
+        }
+    },
+    "result": {
+        "item": "occultweaponry:mythral_leggings",
+        "count": 1
+    }
+}
