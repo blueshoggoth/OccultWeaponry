@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "occultweaponry:mythral_ore"
-    },
-    "result": "occultweaponry:mythral_ingot",
-    "experience": 5,
-    "cookingtime": 80
-}
